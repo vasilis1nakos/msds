@@ -413,15 +413,15 @@
 
 <style>
 /*Header*/
-.webhosting.reseller .header {
+.container-fluid.webhosting.reseller .header {
     padding-top:100px;
     padding-bottom:100px;
-    max-height:initial !important;
-    min-height:initial !important;
-    background: url(.............../resellers_2020_hero.jpg);
+    max-height:initial;
+    min-height:initial;
+    background: url(.........................../resellers_2020_hero) 50% 35%;
 }
 
-.inner_head_text_frame {
+.webhosting.reseller .inner_head_text_frame {
     background-color: rgba(0,0,0,0.78);
     max-width: 680px;
     margin: auto;
@@ -429,21 +429,20 @@
     padding-bottom: 25px;
 }
 
-.webhosting .header h2,
-.reseller .header h2 {
+.webhosting.reseller .header h2 {
     background:none;
     margin-bottom:0;
     padding:0 15px 25px 15px;
 }
 
 
-.webhosting .header hr {
+.webhosting.reseller .header hr {
     border-bottom: 1px solid white;
     border-bottom: none;
     width:80%;
 }
 
-.webhosting .header h3 {
+.webhosting.reseller .header h3 {
     top:initial;
     padding-top:25px;
     padding-left:15px;
@@ -465,7 +464,7 @@
         padding-bottom:40px;
     }    
 
-    .webhosting .l-submain-in h3 {
+    .webhosting.reseller .l-submain-in h3 {
         display: block;
     }
 }
@@ -481,20 +480,18 @@
 }
 
 .webhosting.reseller .row.dots .packages .column .inner h3 span:first-child {
-    position:absolute;
-    left:10px;
-    top:-15px;
-    font-family:Roboto;
+
+    font-family:'Roboto';
 }
 
-.reseller .row.dots .packages .column h3 {
+.webhosting.reseller .row.dots .packages .column h3 {
     background-color: #0069c3 !important;
     height:initial;
     padding-top:10px;
     padding-bottom:10px;
 }
 
-.reseller .row.dots .packages .column h3 {
+.webhosting.reseller .row.dots .packages .column h3 {
     background-color: #115a77 !important;
     background-color: #0069c3 !important;
     height: initial;
@@ -502,7 +499,7 @@
     padding-bottom: 10px;
 }
 
-.webhosting .row.dots .packages .column .price div {
+.webhosting.reseller .row.dots .packages .column .price div {
     padding-top: 20px;
     line-height: 18px;
 }
@@ -511,24 +508,23 @@
     border-color: #980a0b #980a0b transparent transparent !important;
     }
 
-.reseller .row.dots .packages .column .cost {
+.webhosting.reseller .row.dots .packages .column .cost {
     background-image: linear-gradient(45deg, #9d01b1, #392076);
 }
 
-.webhosting.reseller .row.dots .packages .column .inner h3 span:last-child {
-    width:100%;
-
-}
-
-.amazon .row.gray-dots .g-table .more, .webhosting.reseller .row.dots .packages .column .more {
+.amazon .row.gray-dots .g-table .more, .container-fluid.webhosting.reseller .row.dots .packages .column .more {
     margin-top: 40px;
     background-color: #0169c3 !important;
     width: 150px;
 }
 
-.reseller.reseller .row.dots .packages .column .inner:hover .price {
+.container-fluid.reseller.reseller .row.dots .packages .column .inner:hover .price {
     background-color: #1b95ff !important;
-    transition: 0.2s 0.05s;
+}
+
+
+.container-fluid.reseller.reseller .soft-links div.active {
+    background-color:#0169c3;
 }
 </style>
 
