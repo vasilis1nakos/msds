@@ -7,6 +7,11 @@
 /*=====================*/
 
 
+.homepage .row.dots,
+.homepage .search_area input, .homepage .search_area select {
+    background:#fff !important;
+}
+
 .homepage .row.dots .packages .column {
     -webkit-user-select:none;
        -moz-user-select:none;
@@ -33,7 +38,7 @@
 }
 
 .homepage .row.dots .packages .column .more {
-	background:#2a93c0;
+    background:#2a93c0;
 }
 
 
@@ -43,16 +48,24 @@
 }
 
 .homepage .row.dots .packages .column .inner {
-	border-radius:0;
+    border-radius:0;
+}
+
+.new_web_hosting_parent {
+    background: url(https://raw.githubusercontent.com/vasilis1nakos/msds/master/home_section_hosting.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
 }
 
 .homepage .host_services {
-	padding-top:15px;
-	padding-bottom:35px;
+    padding-top:15px;
+    padding-bottom:35px;
+    background: rgba(0, 0, 0, 0.45) !important;
 }
 
 .homepage .host_services .packages {
-	max-width: 1170px;
+    max-width: 1170px;
 }
 
 .homepage .row.dots .packages .column h3 {
@@ -70,10 +83,10 @@
 }
 
 .homepage .row.dots .packages .column .text {
-	height: initial;
-	line-height: 22px;
-	color:#656565;
-	padding-bottom: 40px;
+    height: initial;
+    line-height: 22px;
+    color:#656565;
+    padding-bottom: 40px;
 }
 
 .homepage .row.color_alternate.gray .l-submain-in div.column,
@@ -89,27 +102,32 @@
 }
 
 .homepage .row.dots .packages .column.shared .stroke:before {
-	display:none;
+    display:none;
 }
 
 .homepage .row.dots .packages .column .inner img {
-	width:110px;
+    width:110px;
 }
 
 .homepage .row.dots .packages .column .cost span {
-	margin-top:0;
-	color:#2a93c0;
+    margin-top:0;
+    color:#2a93c0;
 }
 
 .homepage .row.dots .packages .column .cost div{
-	font-size:16px;
-	font-weight:normal;
-	margin:0;
-	color:#656565;
+    font-size:16px;
+    font-weight:normal;
+    margin:0;
+    color:#656565;
 }
 
 .host_services .inner:hover {
-	background-color: rgba(255,255,255,0.95) !important;
+    background-color: rgba(255,255,255,0.95) !important;
+}
+
+.why_tophost {
+    padding-top:20px;
+    padding-bottom:40px;
 }
 
 
@@ -119,13 +137,32 @@
             box-shadow:none !important;
 }
 
+.homepage .row.color_alternate.gray .l-submain-in div.column {
+    color:#414141 !important;
+}
+
+.homepage .row.dots .packages .column.reseller .stroke:before {
+    display:none !important;
+}
+
+@media only screen and (max-width: 479px) {
+
+    .homepage .header .l-submain {
+        padding: 0 10px !important;
+    }
+
+    .homepage .header {
+        height: initial;
+    }
+}
+
 
 /*=====================*/
 /*στo webhosting css file για να πιασει οσες σελιδες το χρησιμοποιούν*/
 /*=====================*/
 
 .webhosting .header h3 {
-	font-size:18px;
+    font-size:18px;
 }
 
 .webhosting .row.color_alternate.gray .l-submain-in div.column .text {
@@ -136,7 +173,7 @@
 }
 
 #characteristics p {
-	font-size:16px;
+    font-size:16px;
 }
 
 .w-tabs-section-content-h p,
@@ -145,19 +182,19 @@
 }
 
 .free_domain-row .free_domain-container .free_domain-container-copy .column {
-	font-size:16px !important;
+    font-size:16px !important;
 }
 
 .extra_info_services_new .text_frame {
-	font-size:16px;
-	line-height:24px;
+    font-size:16px;
+    line-height:24px;
 }
 
 /*=====================*/
 /*GENERAL*/
 /*=====================*/
 .color_alternate .g-btn.type_primary, .color_alternate input[type="submit"], .color_alternate .g-pagination-item.active, .color_alternate .w-actionbox.color_primary, .color_alternate .l-main .w-contacts-item i, .color_alternate .w-iconbox-icon, .color_alternate .w-pricing-item.type_featured .w-pricing-item-title, .color_alternate .w-team-member-links-item:hover, .color_alternate .w-timeline-item.active, .color_alternate .w-timeline-section.active .w-timeline-section-title {
-	font-size:16px;
+    font-size:16px;
 }
 
 .w-posts-entry-h, .l-footer a,
