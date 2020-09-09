@@ -1,0 +1,177 @@
+
+
+
+
+/*=====================*/
+/*HOMEPAGE*/
+/*=====================*/
+
+
+.homepage .row.dots .packages .column {
+    -webkit-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+            user-select:none;
+}
+
+
+.homepage .row.dots .packages .column .text
+.search_domain_header p,
+.homepage .header h3,
+.homepage .row.dots.search_area .g-btn {
+    font-size:18px;    
+}
+
+
+.homepage .row.color_alternate.gray .l-submain-in div.column,
+.homepage .row.dots .packages .column .more,
+.homepage .row.dots .packages .column .text {
+    font-size:16px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.homepage .row.dots .packages .column .more {
+	background:#2a93c0;
+}
+
+
+.choose_package.g-btn.type_primary {
+    font-size:18px!important;
+    padding: 18px 30px;
+}
+
+.homepage .row.dots .packages .column .inner {
+	border-radius:0;
+}
+
+.homepage .host_services {
+	padding-top:15px;
+	padding-bottom:35px;
+}
+
+.homepage .host_services .packages {
+	max-width: 1170px;
+}
+
+.homepage .row.dots .packages .column h3 {
+    font-family: "Roboto";
+    font-size: 26px;
+    color: #2a93c0 !important;
+    font-weight:700;
+}
+
+.homepage .row.dots .packages .column .more {
+    background-color:#40afde;
+    -webkit-box-shadow:none;
+            box-shadow:none;
+            min-width:150px;
+}
+
+.homepage .row.dots .packages .column .text {
+	height: initial;
+	line-height: 22px;
+	color:#656565;
+	padding-bottom: 40px;
+}
+
+.homepage .row.color_alternate.gray .l-submain-in div.column,
+.homepage .row.dots .packages .column .more,
+.homepage .row.dots .packages .column .text {
+    font-size: 18px;
+}
+
+.homepage .row.gray,
+.homepage .row.dots {
+    -webkit-box-shadow:none;
+            box-shadow:none;
+}
+
+.homepage .row.dots .packages .column.shared .stroke:before {
+	display:none;
+}
+
+.homepage .row.dots .packages .column .inner img {
+	width:110px;
+}
+
+.homepage .row.dots .packages .column .cost span {
+	margin-top:0;
+	color:#2a93c0;
+}
+
+.homepage .row.dots .packages .column .cost div{
+	font-size:16px;
+	font-weight:normal;
+	margin:0;
+	color:#656565;
+}
+
+.host_services .inner:hover {
+	background-color: rgba(255,255,255,0.95) !important;
+}
+
+
+.free_domain-container a {
+    font-size:16px;
+    -webkit-box-shadow:none !important;
+            box-shadow:none !important;
+}
+
+
+/*=====================*/
+/*στo webhosting css file για να πιασει οσες σελιδες το χρησιμοποιούν*/
+/*=====================*/
+
+.webhosting .header h3 {
+	font-size:18px;
+}
+
+.webhosting .row.color_alternate.gray .l-submain-in div.column .text {
+    padding-right: 20px;
+    font-family: 'Roboto Light',sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+#characteristics p {
+	font-size:16px;
+}
+
+.w-tabs-section-content-h p,
+.webhosting .row.gray a {
+    font-size:16px
+}
+
+.free_domain-row .free_domain-container .free_domain-container-copy .column {
+	font-size:16px !important;
+}
+
+.extra_info_services_new .text_frame {
+	font-size:16px;
+	line-height:24px;
+}
+
+/*=====================*/
+/*GENERAL*/
+/*=====================*/
+.color_alternate .g-btn.type_primary, .color_alternate input[type="submit"], .color_alternate .g-pagination-item.active, .color_alternate .w-actionbox.color_primary, .color_alternate .l-main .w-contacts-item i, .color_alternate .w-iconbox-icon, .color_alternate .w-pricing-item.type_featured .w-pricing-item-title, .color_alternate .w-team-member-links-item:hover, .color_alternate .w-timeline-item.active, .color_alternate .w-timeline-section.active .w-timeline-section-title {
+	font-size:16px;
+}
+
+.w-posts-entry-h, .l-footer a,
+.w-posts-entry-h a, .l-footer a,
+.w-posts-entry-h, .l-footer {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#blog_post a {
+    color:#fff !important;
+    text-decoration:underline;
+}
+
+
+
