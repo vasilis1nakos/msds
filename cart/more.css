@@ -1,0 +1,25 @@
+#OwnerNewCountry.form-field .form-input select,
+#create_owner .form-field .form-input input,
+#create_owner .form-field .form-input select {
+    width: 90%;
+}
+
+.Consulting .domains {
+    width:100% !important;
+}
+
+.field_is_ok_ref {
+    height: 40px !important;
+    line-height: 40px !important;
+} 
+
+
+
+@media (max-width: 500px) {
+    #OwnerNewCountry.form-field .form-input select,
+    #create_owner .form-field .form-input input,
+    #create_owner .form-field .form-input select {
+        width: 80%;
+    }
+}
+
